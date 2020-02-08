@@ -1,0 +1,178 @@
+//Header
+header.header-main
+  position: relative
+  z-index: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 500px
+  background: 
+    size: cover
+    position: center center
+    repeat: no-repeat 
+  .overlay-light
+    background: $white
+    opacity: .87
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+  .home-title
+    position: relative
+    z-index: 3
+    text-align: center
+    padding-top: 50px
+    h1
+      font-size: 3.125em
+      font-weight: 500
+      line-height: 1.2em
+      padding: 0 20px 5px 20px 
+    h3
+      font-size: 1.25em
+      font-weight: 400
+      line-height: 1.2em
+  a.home-avatar
+    position: absolute
+    z-index: 3
+    bottom: 0
+    left: 0
+    right: 0
+    margin: auto
+    margin-bottom: -50px
+    height: 100px
+    width: 100px
+    border-radius: 100%
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .25)
+    background: 
+      image: url('../img/myPic.png')
+      size: cover
+      position: center center
+      repeat: no-repeat
+    @media screen and(max-width: 355px)
+      height: 75px
+      width: 75px
+      margin-bottom: -43px
+//who is he
+.who-is-he
+  max-width: 600px
+  margin: 160px auto 100px auto
+  padding: 0 20px 
+  h2 
+    padding-bottom: 17px
+  p
+    a
+      font-weight: 600
+      color: $highlight
+      transition: all 0.15s ease-in-out
+      &:hover
+        color: $secondary
+//Recent Project
+h2.recent-projects
+  text-align: center
+  padding-top: 100px
+.recent-projects-content-wrapper
+  margin: 0 auto 100px auto
+  max-width: 800px
+  padding: 60px 20px 0 20px
+  display: flex
+  flex-direction: column
+  align-items: center
+  .project-wrap
+    width: 100%
+    display: flex
+    justify-content: flex-start
+    .project
+      max-width: 465px
+      min-height: 100px
+      margin: 20px 0
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      .project-img
+        background: $primary
+        height: 100px
+        width: 100px
+        flex: 0 0 100px
+        border-radius: 3px
+        cursor: pointer
+        background: 
+          size: cover
+          position: center center
+          repeat: no-repeat
+      .project-img-three
+        background:
+          image: url('../img/safestep-floors-recent-project.jpg')
+          size: cover
+          position: center center
+          repeat: no-repeat
+      .project-img-four
+        background:
+          image: url('../img/starving-artistry-recent-project.jpg')
+          size: cover
+          position: center center
+          repeat: no-repeat
+      .project-text
+        min-height: 83px
+        height: 100%
+        width: 100%
+        margin-left: 15px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding: 5px 0 
+        p
+          line-height: 1.1875em
+  .project-wrap-reverse
+    justify-content: flex-end
+    .project
+      flex-direction: row-reverse
+      .project-text
+        text-align: right
+        margin-right: 15px
+        margin-left: 0
+  @media screen and(max-width: 465px)
+    .project-wrap
+      .project
+        flex-direction: column
+        min-height: 199px
+        .project-text
+          margin: 6px 0 0 0 
+    .project-wrap-reverse
+      .project
+        align-items: flex-end
+        flex-direction: column
+        min-height: 199px  
+        .project-text
+          margin: 6px 0 0 0 
+        
+
+
+  
+
+  // .project-img-one
+  //   background:
+  //     image: url('')
+  //     size: cover
+  //     position: center center
+  //     repeat: no-repeat
+  //     .project-img-two
+  //       background:
+  //         image: url('')
+  //         size: cover
+  //         position: center center
+  //         repeat: no-repeat
+  //     .project-img-three
+  //       background:
+  //         image: url('../img/safestep-floors-recent-project.jpg')
+  //         size: cover
+  //         position: center center
+  //         repeat: no-repeat
+  //     .project-img-four
+  //       background:
+  //         image: url('../img/starving-artistry-recent-project.jpg')
+  //         size: cover
+  //         position: center center
+  //         repeat: no-repeat
