@@ -21,8 +21,10 @@
 title: Khairul Abdi Dongoran
 email: kabdi384@gmail.com
 description: Khairul Abdi Dongoran is a freelance web designer/developer 
+# baseurl: "/khairulabdidongoran" # the subpath of your site, e.g. /blog
+# url: "https://khairulabdidongoran.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/khairulabdidongoran" # the subpath of your site, e.g. /blog
-url: "https://khairulabdidongoran.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://khairul-abdi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 facebook_path: https://www.facebook.com/kabdi384
 instagram_path: https://www.instagram.com/khairul_abdi_dongoran/
