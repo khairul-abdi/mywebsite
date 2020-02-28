@@ -1,1 +1,1 @@
-# [mywebsite](https://github.com/khairul-abdi/mywebsite)
+# [mywebsite](https://khairul-abdi.github.io/mywebsite/)
